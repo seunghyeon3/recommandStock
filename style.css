@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+}
+
+header {
+  padding: 24px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #1f2937;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.score {
+  color: #facc15;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.leader {
+  margin-top: 12px;
+  font-size: 20px;
+  color: #22c55e;
+}
+
+.stock-list {
+  margin-top: 12px;
+}
+
+.stock-item {
+  background: #374151;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
